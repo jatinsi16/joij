@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .aaa{
+            height: 500px;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <img style="width: 150px ; height: 150px;" class="aaa" src="F (6).jpg" alt="jsj">
+    <br>
+    <br>
+   
+    <input id="1" type="textbox"><br>
+    <button id="2">Update</button>
+    <p id="3" >welcome </p>
+    <script>
+        document.getElementById("2").onclick =function(){
+                var x ="";
+                var x = document.getElementById("1").value;
+                document.getElementById("3") .innerHTML = x;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+#name{
+height: 40px;
+text-align: justify;
+border-radius: 5px;
+border-color: brown;
+}
+.a1{
+    text-align: right;
+    padding-left: 20px;
+  background-color: aqua; 
+  text-emphasis-color: red; 
+}
